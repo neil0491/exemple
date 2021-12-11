@@ -174,14 +174,13 @@ img {
 }
 .slide-right-leave-active {
   animation: toRight 0.5s;
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   transition: all 0.5s ease-out;
 }
 .slide-left-enter-from,
 .slide-left-leave-to,
 .slide-right-enter-from,
 .slide-right-leave-to {
-  opacity: 0;
+  opacity: 1;
 }
 
 .slide-left-leave-from,
@@ -191,9 +190,6 @@ img {
   opacity: 1;
 }
 
-/* .move-sledet-move {
-  transition: transform 0.8s ease;
-} */
 @keyframes toRight {
   0% {
     transform: translateX(0%);

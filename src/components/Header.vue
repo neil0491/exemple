@@ -15,27 +15,31 @@
 
 <script>
 export default {
-  name: "Header",
+  name: 'Header',
   setup() {
     const categories = [
       {
-        slug: "/",
-        name: "Главная",
+        slug: '/',
+        name: 'Главная',
       },
       {
-        slug: "/movies",
-        name: "Фильмы",
+        slug: '/movies',
+        name: 'Фильмы',
       },
       {
-        slug: "/func",
-        name: "Функции",
+        slug: '/func',
+        name: 'Функции',
       },
-    ]
+      {
+        slug: '/picker',
+        name: 'Picker',
+      },
+    ];
     return {
       categories,
-    }
+    };
   },
-}
+};
 </script>
 
 <style scoped>
